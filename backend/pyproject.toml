@@ -1,0 +1,22 @@
+[project]
+name = "resumeai-backend"
+version = "0.1.0"
+description = "FastAPI backend for ResumeAI"
+requires-python = ">=3.11"
+dependencies = [
+  "alembic>=1.14.0",
+  "fastapi>=0.115.6",
+  "openai>=1.58.1",
+  "psycopg[binary]>=3.2.3",
+  "pypdf>=5.1.0",
+  "pydantic-settings>=2.7.1",
+  "python-docx>=1.1.2",
+  "python-dotenv>=1.0.1",
+  "python-multipart>=0.0.20",
+  "sqlalchemy>=2.0.36",
+  "uvicorn[standard]>=0.34.0"
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
